@@ -7,7 +7,7 @@ champion=[]
 all_champions=[]
 younger_players=[]
 
-def get_player_to_compare(list_of_players):
+def get_champions(list_of_players):
         player_to_compare = list_of_players[0]
         print("player I compare", player_to_compare)
         print("my list of players",list_of_players)
@@ -34,11 +34,11 @@ def get_player_to_compare(list_of_players):
             return
         else :
             print('keep going')                    
-            get_player_to_compare(list_of_players)
+            get_champions(list_of_players)
 
                 
         
-get_player_to_compare(my_data_list)
+get_champions(my_data_list)
 print("All champions are: ", all_champions)
 
 
